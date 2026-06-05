@@ -3,7 +3,7 @@ import { site } from '@data/site';
 import { Icon } from 'astro-icon/components';
 ---
 
-<div class="flex items-center gap-1">
+<div class="flex flex-wrap items-center justify-center gap-2">
   <a
     href={site.contact.github}
     class="subtle-link inline-flex h-9 w-9 items-center justify-center rounded"
@@ -28,5 +28,24 @@ import { Icon } from 'astro-icon/components';
     aria-label="Email"
   >
     <Icon name="ph:envelope-simple" class="h-6 w-6" />
+  </a>
+  <a
+    href={site.contact.project}
+    class="subtle-link inline-flex h-9 w-9 items-center justify-center rounded"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Proyecto Sociedad Biomédica"
+  >
+    <Icon name="ph:globe" class="h-6 w-6" />
+  </a>
+  <a
+    href={site.contact.cv}
+    class="subtle-link inline-flex items-center gap-2 rounded border border-accent/30 px-3 py-2 text-xs font-semibold uppercase tracking-[0.18em] hover:border-accent"
+    target="_blank"
+    rel="noreferrer"
+    aria-label="Descargar CV"
+  >
+    <Icon name="ph:file-pdf" class="h-4 w-4" />
+    CV
   </a>
 </div>

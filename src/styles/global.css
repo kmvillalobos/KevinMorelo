@@ -86,7 +86,15 @@
   }
 
   .panel-card {
-    @apply rounded-md bg-white-soft p-6 transition duration-200;
+    @apply rounded-md p-6 transition duration-200;
+    background: color-mix(in srgb, var(--color-background), white 7%);
+    border: 1px solid color-mix(in srgb, var(--color-accent), transparent 82%);
+    box-shadow: 0 20px 60px color-mix(in srgb, black, transparent 82%);
+  }
+
+  .panel-card:hover {
+    border-color: color-mix(in srgb, var(--color-accent), transparent 55%);
+    transform: translateY(-2px);
   }
 }
 

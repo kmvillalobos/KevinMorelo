@@ -1,6 +1,6 @@
 {
-  "name": "projects-portfolio-template",
-  "version": "0.1.0",
+  "name": "kevin-morelo-portfolio",
+  "version": "1.0.0",
   "type": "module",
   "engines": {
     "node": ">=22.12.0"
@@ -17,12 +17,15 @@
   "keywords": [
     "portfolio",
     "astro",
-    "frontend",
-    "web-design"
+    "typescript",
+    "tailwind",
+    "software-engineer",
+    "aws",
+    "devops"
   ],
-  "author": "Masoud Soleymani",
+  "author": "Kevin Andres Morelo Villalobos",
   "license": "MIT",
-  "description": "Projects portfolio template",
+  "description": "Portafolio profesional de Kevin Andres Morelo Villalobos construido con Astro y Tailwind CSS.",
   "overrides": {
     "vite": "^7"
   },
